@@ -7,14 +7,17 @@ LIBPATH = ""
 LIBPATH_env = "PATH"
 
 # Relative path to `libutf8proc`
-const libutf8proc_splitpath = ["lib", "libutf8proc.a"]
+const libutf8proc_splitpath = ["bin", "libutf8proc.dll"]
 
 # This will be filled out by __init__() for all products, as it must be done at runtime
 libutf8proc_path = ""
 
 # libutf8proc-specific global declaration
 # This will be filled out by __init__()
-libutf8proc = ""
+libutf8proc_handle = C_NULL
+
+# This must be `const` so that we can use it with `ccall()`
+const libutf8proc = "libutf8proc.dll"
 
 
 """
@@ -29,7 +32,11 @@ function __init__()
     append!(LIBPATH_list, [Sys.BINDIR, joinpath(Sys.BINDIR, Base.LIBDIR, "julia"), joinpath(Sys.BINDIR, Base.LIBDIR)])
     global libutf8proc_path = normpath(joinpath(artifact_dir, libutf8proc_splitpath...))
 
-    global libutf8proc = libutf8proc_path
+    # Manually `dlopen()` this right now so that future invocations
+    # of `ccall` with its `SONAME` will find this path immediately.
+    global libutf8proc_handle = dlopen(libutf8proc_path)
+    push!(LIBPATH_list, dirname(libutf8proc_path))
+
     # Filter out duplicate and empty entries in our PATH and LIBPATH entries
     filter!(!isempty, unique!(PATH_list))
     filter!(!isempty, unique!(LIBPATH_list))

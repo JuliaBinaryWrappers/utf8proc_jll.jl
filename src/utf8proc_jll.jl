@@ -5,5 +5,5 @@ using Base: UUID
 import JLLWrappers
 
 JLLWrappers.@generate_main_file_header("utf8proc")
-JLLWrappers.@generate_main_file("utf8proc", UUID("00992c89-a35c-5347-9984-e6609dacc59a"))
+JLLWrappers.@generate_main_file("utf8proc", Base.UUID("00992c89-a35c-5347-9984-e6609dacc59a"))
 end  # module utf8proc_jll

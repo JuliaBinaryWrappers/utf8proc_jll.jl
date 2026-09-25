@@ -1,160 +1,160 @@
 [[utf8proc]]
 arch = "aarch64"
-git-tree-sha1 = "78565bb9280148d7d4041b677c5361f905b9ee1a"
+git-tree-sha1 = "f44e275573b6d50b648511d094c25aeb651e4c2b"
 os = "macos"
 
     [[utf8proc.download]]
-    sha256 = "ea7d0378a6c03616b1edcbf595a975a0cb96c1af153f8f06f65bb939d35c605f"
-    url = "https://github.com/JuliaBinaryWrappers/utf8proc_jll.jl/releases/download/utf8proc-v2.11.3+0/utf8proc.v2.11.3.aarch64-apple-darwin.tar.gz"
+    sha256 = "15d18614ab88130b5711b20197fed3f15f257c411d5882d253fdc96ac44b37f0"
+    url = "https://github.com/JuliaBinaryWrappers/utf8proc_jll.jl/releases/download/utf8proc-v2.12.0+0/utf8proc.v2.12.0.aarch64-apple-darwin.tar.gz"
 [[utf8proc]]
 arch = "aarch64"
-git-tree-sha1 = "494696861a741c54d4cc4303787ab7e19c2966fa"
+git-tree-sha1 = "15a6bcefad8415e924fab5e0110316d038b3c513"
 libc = "glibc"
 os = "linux"
 
     [[utf8proc.download]]
-    sha256 = "dc3ee9e3df25260c676985d3c7745454c9f18425c2b1a4813fea08725cf800d0"
-    url = "https://github.com/JuliaBinaryWrappers/utf8proc_jll.jl/releases/download/utf8proc-v2.11.3+0/utf8proc.v2.11.3.aarch64-linux-gnu.tar.gz"
+    sha256 = "e99333f88b70364e3288a5ce411a2755a6293a08f83678c9f7a1558a5698f115"
+    url = "https://github.com/JuliaBinaryWrappers/utf8proc_jll.jl/releases/download/utf8proc-v2.12.0+0/utf8proc.v2.12.0.aarch64-linux-gnu.tar.gz"
 [[utf8proc]]
 arch = "aarch64"
-git-tree-sha1 = "f223bbe0980c05b92c45c386e96e0eb76c7e85ce"
+git-tree-sha1 = "5e049057482d128e7b30838b93ef89e9c661834f"
 libc = "musl"
 os = "linux"
 
     [[utf8proc.download]]
-    sha256 = "ad10e19b91db3c650028ed78a0141457cf1f2e2c7b5fb20d1aa35d8e9c9037fa"
-    url = "https://github.com/JuliaBinaryWrappers/utf8proc_jll.jl/releases/download/utf8proc-v2.11.3+0/utf8proc.v2.11.3.aarch64-linux-musl.tar.gz"
+    sha256 = "aa77cd3bca0461b714efcb4f3bc4c597277e099a5a25778b91fa025ecebbd413"
+    url = "https://github.com/JuliaBinaryWrappers/utf8proc_jll.jl/releases/download/utf8proc-v2.12.0+0/utf8proc.v2.12.0.aarch64-linux-musl.tar.gz"
 [[utf8proc]]
 arch = "aarch64"
-git-tree-sha1 = "4f4cd9a2bd5b46719a5d659e8d8f3092899a53a5"
+git-tree-sha1 = "1acbd072fac704efd814346bdf1606a39f35c525"
 os = "freebsd"
 
     [[utf8proc.download]]
-    sha256 = "f6c809e32adfbdcb6b806e6a9062b8be4c49cca1d58b02f2979bc3ddfb346841"
-    url = "https://github.com/JuliaBinaryWrappers/utf8proc_jll.jl/releases/download/utf8proc-v2.11.3+0/utf8proc.v2.11.3.aarch64-unknown-freebsd.tar.gz"
+    sha256 = "31db51634575707a6f2154bc56baef07931252cf05198d07b7da1a9fa7ea2565"
+    url = "https://github.com/JuliaBinaryWrappers/utf8proc_jll.jl/releases/download/utf8proc-v2.12.0+0/utf8proc.v2.12.0.aarch64-unknown-freebsd.tar.gz"
 [[utf8proc]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "4a32677b807aa74aa4e36797c8cb431de5d11bf1"
+git-tree-sha1 = "905383c17002d661e9e85d496fe19a054dd4911f"
 libc = "glibc"
 os = "linux"
 
     [[utf8proc.download]]
-    sha256 = "cc635b87713db79b6ec94f50eb0ab6454111258bc6864b7fcd761a9f3a76ce59"
-    url = "https://github.com/JuliaBinaryWrappers/utf8proc_jll.jl/releases/download/utf8proc-v2.11.3+0/utf8proc.v2.11.3.armv6l-linux-gnueabihf.tar.gz"
+    sha256 = "053498098b8796c434c4b5eb0cc0e0b0d5fa98c64ac491edb13aa408cc6eee8d"
+    url = "https://github.com/JuliaBinaryWrappers/utf8proc_jll.jl/releases/download/utf8proc-v2.12.0+0/utf8proc.v2.12.0.armv6l-linux-gnueabihf.tar.gz"
 [[utf8proc]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "c81db5cae4c5812063cd337ff88069d37e3eab9c"
+git-tree-sha1 = "3f9852e097b5eba1797f3d90540034f035617312"
 libc = "musl"
 os = "linux"
 
     [[utf8proc.download]]
-    sha256 = "0f769758d9ecfa3168ae4149b9382559b3e021a9ac9b5c242d58d270e6332b1b"
-    url = "https://github.com/JuliaBinaryWrappers/utf8proc_jll.jl/releases/download/utf8proc-v2.11.3+0/utf8proc.v2.11.3.armv6l-linux-musleabihf.tar.gz"
+    sha256 = "bd4b8f870b61c6b9633518815bce1b8f3c06b4fef84b789cce2fffccbe1b50ad"
+    url = "https://github.com/JuliaBinaryWrappers/utf8proc_jll.jl/releases/download/utf8proc-v2.12.0+0/utf8proc.v2.12.0.armv6l-linux-musleabihf.tar.gz"
 [[utf8proc]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "4053919cc5c6dd3287faf139a349b774cf2e9995"
+git-tree-sha1 = "f28544f0eda04b1d1a3f1ca1772dff5e3a58fc69"
 libc = "glibc"
 os = "linux"
 
     [[utf8proc.download]]
-    sha256 = "3e5df9871314b27747efdfd8ac2f8a014a1cca3af4125cc02ae7aa0c552ca819"
-    url = "https://github.com/JuliaBinaryWrappers/utf8proc_jll.jl/releases/download/utf8proc-v2.11.3+0/utf8proc.v2.11.3.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "a64795ffe4e633eac414ccfc65cbe1093b239816adccfe98ac71ca6e0e5c2b55"
+    url = "https://github.com/JuliaBinaryWrappers/utf8proc_jll.jl/releases/download/utf8proc-v2.12.0+0/utf8proc.v2.12.0.armv7l-linux-gnueabihf.tar.gz"
 [[utf8proc]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "0fa68455e37dee85cd52b061198f04ab8c396652"
+git-tree-sha1 = "58b5470fe96406e469eee87b8e5463a01b3ae8a4"
 libc = "musl"
 os = "linux"
 
     [[utf8proc.download]]
-    sha256 = "e2ccf2e7e8a712c15c9607180a0d26f6ff49b74d244571d152de719ea2c41bcf"
-    url = "https://github.com/JuliaBinaryWrappers/utf8proc_jll.jl/releases/download/utf8proc-v2.11.3+0/utf8proc.v2.11.3.armv7l-linux-musleabihf.tar.gz"
+    sha256 = "6e246423ed6a45e977d19654be79338ca1bfe7344efdfad9c398917c0e5958e0"
+    url = "https://github.com/JuliaBinaryWrappers/utf8proc_jll.jl/releases/download/utf8proc-v2.12.0+0/utf8proc.v2.12.0.armv7l-linux-musleabihf.tar.gz"
 [[utf8proc]]
 arch = "i686"
-git-tree-sha1 = "a332e2766a27a6f8dfbc188955a652f911cb0dcc"
+git-tree-sha1 = "fdd0962774832182682b9d7573a76416ed37588a"
 libc = "glibc"
 os = "linux"
 
     [[utf8proc.download]]
-    sha256 = "7ea597ad447693bee166abdacc58998054fdbfafd09bb34527644dad32e4b78b"
-    url = "https://github.com/JuliaBinaryWrappers/utf8proc_jll.jl/releases/download/utf8proc-v2.11.3+0/utf8proc.v2.11.3.i686-linux-gnu.tar.gz"
+    sha256 = "2873aa5c7ecd3e6881eb155a7309ef85972b7eb11abfb572a6756f56211eec0f"
+    url = "https://github.com/JuliaBinaryWrappers/utf8proc_jll.jl/releases/download/utf8proc-v2.12.0+0/utf8proc.v2.12.0.i686-linux-gnu.tar.gz"
 [[utf8proc]]
 arch = "i686"
-git-tree-sha1 = "2175dc3a9d69155bba77db8f313cfe198cb18ace"
+git-tree-sha1 = "d628b604e0e5e5fe61bb95419764630dd755333d"
 libc = "musl"
 os = "linux"
 
     [[utf8proc.download]]
-    sha256 = "6ce95a52c13a3a83a9d77bb5734d522685df533433a1d0c9477877dacbc88906"
-    url = "https://github.com/JuliaBinaryWrappers/utf8proc_jll.jl/releases/download/utf8proc-v2.11.3+0/utf8proc.v2.11.3.i686-linux-musl.tar.gz"
+    sha256 = "5d84d52fe7ccf1ee860be44095180bc314c03a7a9bfb6981ab07e18278048fc2"
+    url = "https://github.com/JuliaBinaryWrappers/utf8proc_jll.jl/releases/download/utf8proc-v2.12.0+0/utf8proc.v2.12.0.i686-linux-musl.tar.gz"
 [[utf8proc]]
 arch = "i686"
-git-tree-sha1 = "8203f57b40fc4a73e3775a98fd29c7b334c9868b"
+git-tree-sha1 = "36f7683e37841ef5f5e1d01150f73ab049c1a5a1"
 os = "windows"
 
     [[utf8proc.download]]
-    sha256 = "6bba42e6622ff4022861b9bc2dfa0030363dc8e627293aca4bef45e736d9a1ea"
-    url = "https://github.com/JuliaBinaryWrappers/utf8proc_jll.jl/releases/download/utf8proc-v2.11.3+0/utf8proc.v2.11.3.i686-w64-mingw32.tar.gz"
+    sha256 = "65c2c42d6860ba6a753d51f87eeb184fe06c420d5deb48f0f7b5e2b7585ebbc1"
+    url = "https://github.com/JuliaBinaryWrappers/utf8proc_jll.jl/releases/download/utf8proc-v2.12.0+0/utf8proc.v2.12.0.i686-w64-mingw32.tar.gz"
 [[utf8proc]]
 arch = "powerpc64le"
-git-tree-sha1 = "392925ba2801de326c67ff202830d8cf98849a0d"
+git-tree-sha1 = "194533bf86db7f520d1452f141264c9b9a9b392c"
 libc = "glibc"
 os = "linux"
 
     [[utf8proc.download]]
-    sha256 = "35c2bf65868644b34fb3a283c59cc40faaed7e7ebce839f9dd85dfc86c162ae3"
-    url = "https://github.com/JuliaBinaryWrappers/utf8proc_jll.jl/releases/download/utf8proc-v2.11.3+0/utf8proc.v2.11.3.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "7f3701f143464e2c58abe5d78cc6a617fafd1ac3f85fa5855e57d068410aae54"
+    url = "https://github.com/JuliaBinaryWrappers/utf8proc_jll.jl/releases/download/utf8proc-v2.12.0+0/utf8proc.v2.12.0.powerpc64le-linux-gnu.tar.gz"
 [[utf8proc]]
 arch = "riscv64"
-git-tree-sha1 = "47381124dd097514c53c5f05ebc2e035b5107be5"
+git-tree-sha1 = "b99d0838e603bbc4c3757c326ffa6e1f3e3028d9"
 libc = "glibc"
 os = "linux"
 
     [[utf8proc.download]]
-    sha256 = "d83d39461ac2efecf0c4d3235836401206fa63b5753f49cec744f3b1cfd02db9"
-    url = "https://github.com/JuliaBinaryWrappers/utf8proc_jll.jl/releases/download/utf8proc-v2.11.3+0/utf8proc.v2.11.3.riscv64-linux-gnu.tar.gz"
+    sha256 = "18eda0e4e8d6ad57d7c29b80d6ba2086be51b987e5851de73da28bf4f0223ba2"
+    url = "https://github.com/JuliaBinaryWrappers/utf8proc_jll.jl/releases/download/utf8proc-v2.12.0+0/utf8proc.v2.12.0.riscv64-linux-gnu.tar.gz"
 [[utf8proc]]
 arch = "x86_64"
-git-tree-sha1 = "4a3cd92e8932757cea4265ef324df0bb86b1312e"
+git-tree-sha1 = "369579f9a0419d25d12555c3453d0a492fa9cbaf"
 os = "macos"
 
     [[utf8proc.download]]
-    sha256 = "70b6a20644b72c563f05033c51c1bf54a1502743f149363fc2099a70bac943a5"
-    url = "https://github.com/JuliaBinaryWrappers/utf8proc_jll.jl/releases/download/utf8proc-v2.11.3+0/utf8proc.v2.11.3.x86_64-apple-darwin.tar.gz"
+    sha256 = "b2c01e52bb18e1815fa827ae126ea7e027973f994c3b262d6a0a33f504c8f0cc"
+    url = "https://github.com/JuliaBinaryWrappers/utf8proc_jll.jl/releases/download/utf8proc-v2.12.0+0/utf8proc.v2.12.0.x86_64-apple-darwin.tar.gz"
 [[utf8proc]]
 arch = "x86_64"
-git-tree-sha1 = "56b65680930268d6fac9b61bf80533f4db4579d6"
+git-tree-sha1 = "48bb407828a1d04e7753f84a11499fd17211272b"
 libc = "glibc"
 os = "linux"
 
     [[utf8proc.download]]
-    sha256 = "fc77f035b3bb8ac954876815a296a4bd9d5b0fd27d17c02bdddcc7a778fe88cd"
-    url = "https://github.com/JuliaBinaryWrappers/utf8proc_jll.jl/releases/download/utf8proc-v2.11.3+0/utf8proc.v2.11.3.x86_64-linux-gnu.tar.gz"
+    sha256 = "5c3ecae19ae5a752229ff6a3a8839cf0e75649bfdb4dd784a341a489b159aef1"
+    url = "https://github.com/JuliaBinaryWrappers/utf8proc_jll.jl/releases/download/utf8proc-v2.12.0+0/utf8proc.v2.12.0.x86_64-linux-gnu.tar.gz"
 [[utf8proc]]
 arch = "x86_64"
-git-tree-sha1 = "55e7465199b31c241cf2b5b4a5e41f2f159451b5"
+git-tree-sha1 = "0a34c0eda14b928e5c65a045be4416bb08859d83"
 libc = "musl"
 os = "linux"
 
     [[utf8proc.download]]
-    sha256 = "c3116a7e973795c5048565483a805ac9edf7b433ef0a5df7abdfbd903a5b9f77"
-    url = "https://github.com/JuliaBinaryWrappers/utf8proc_jll.jl/releases/download/utf8proc-v2.11.3+0/utf8proc.v2.11.3.x86_64-linux-musl.tar.gz"
+    sha256 = "09be756bfc87efb14726c0a4e7e19d185e2356b4d832736bf8cf688a4fafa36e"
+    url = "https://github.com/JuliaBinaryWrappers/utf8proc_jll.jl/releases/download/utf8proc-v2.12.0+0/utf8proc.v2.12.0.x86_64-linux-musl.tar.gz"
 [[utf8proc]]
 arch = "x86_64"
-git-tree-sha1 = "265b7dacf367898e9b03527ea1858da4c7648ac3"
+git-tree-sha1 = "3a34c1170d6bd09922773d1a4e087c8bf1985a9c"
 os = "freebsd"
 
     [[utf8proc.download]]
-    sha256 = "4416a2a25154eac728cbdb71c09c56174ff0cb28c35b82c75eb053b5a93f0d91"
-    url = "https://github.com/JuliaBinaryWrappers/utf8proc_jll.jl/releases/download/utf8proc-v2.11.3+0/utf8proc.v2.11.3.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "a1fc5987d10daa7949afea6dff8f9a39183cceaf5321fd5d34a379c2b675741d"
+    url = "https://github.com/JuliaBinaryWrappers/utf8proc_jll.jl/releases/download/utf8proc-v2.12.0+0/utf8proc.v2.12.0.x86_64-unknown-freebsd.tar.gz"
 [[utf8proc]]
 arch = "x86_64"
-git-tree-sha1 = "92705e463f652cc74737dcb0f0e8b295b51f1586"
+git-tree-sha1 = "053f2fd6a83a7c500d9b5d320937ce7aa8c99060"
 os = "windows"
 
     [[utf8proc.download]]
-    sha256 = "4e936eede11ced1f786b2375efa19888becc064092df318da8f79704b24fb406"
-    url = "https://github.com/JuliaBinaryWrappers/utf8proc_jll.jl/releases/download/utf8proc-v2.11.3+0/utf8proc.v2.11.3.x86_64-w64-mingw32.tar.gz"
+    sha256 = "dc34f528dd2c4c36620b2d113381d8a214c701e276a0983857e2ef38cfb89cf5"
+    url = "https://github.com/JuliaBinaryWrappers/utf8proc_jll.jl/releases/download/utf8proc-v2.12.0+0/utf8proc.v2.12.0.x86_64-w64-mingw32.tar.gz"
